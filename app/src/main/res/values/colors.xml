@@ -10,5 +10,6 @@
 
     <color name="colorBoton">#195531</color>
     <color name="fondo">#f3e0b3</color>
+    <color name="dusty_white">#ebebeb</color>
 
 </resources>

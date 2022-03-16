@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TaqueriaPortales</string>
+    <string name="slogan">Taste the best Mexican food of Wilmington</string>
+    <string name="ordenaAhora">Ordena ahora!</string>
 </resources>
