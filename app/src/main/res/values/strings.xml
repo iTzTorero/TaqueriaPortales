@@ -104,5 +104,19 @@
     <string name="lamamalona">La mamalona</string>
     <string name="mamalonacamarones">La mamalona con Camarones</string>
     <string name="cubetazo">Cubetazo (6 cervezas)</string>
+    <string name="tacoTradicionalDesc">Traditional Taco</string>
+    <string name="tacoPescadoDesc">Fish taco</string>
+    <string name="tostadasceviche">Tostadas de ceviche</string>
+    <string name="coctelcamarondesc">Coctel de camaron fresco</string>
+    <string name="botanadecamaronesdesc">botana de camarones</string>
+    <string name="largerdesc">Caldo grande de verduras</string>
+    <string name="smallmexicantorta">Small Mexican Torta</string>
+    <string name="smallmexicantortadesc">Bolillo bread sandwich with your choice of filling. Topped with Lettuce, tomatoes, onions, and avocado.</string>
+    <string name="caldoresdesc">Caldo de res</string>
+    <string name="sideguacamoledesc">Bowl of guacamole</string>
+    <string name="sidericedesc">Bowl of rice</string>
+    <string name="sidebeansdesc">Bowl of beans</string>
+    <string name="chipssalsadesc">Bowl with chips and salsa</string>
+    <string name="flourtacosdesc">Flour tacos</string>
 
 </resources>
