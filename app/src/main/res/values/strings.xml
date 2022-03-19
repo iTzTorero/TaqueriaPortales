@@ -2,4 +2,109 @@
     <string name="app_name">TaqueriaPortales</string>
     <string name="slogan">Taste the best Mexican food of Wilmington</string>
     <string name="ordenaAhora">Ordena ahora!</string>
+
+    <string name="tacos">TACOS</string>
+
+    <string name="tacoTradicional">Taco tradicional</string>
+    <string name="tacoPescado">Taco de pescado</string>
+
+    <string name="antojitos">ANTOJITOS</string>
+
+    <string name="quesadillas">Quesadillas</string>
+    <string name="quesadillasdesc">Rellenas con su carne favorita, servidas con ensalada. Filled with your choice of meat, served with salad.</string>
+    <string name="huaraches">Huaraches</string>
+    <string name="huarachesdesc">Tortilla gruesa con frijoles, tu carne favorita, lechuga, queso fresco y crema. Big Thick tortilla with beans, your choice of meat, fresh cheese, and sour cream</string>
+    <string name="gringas">Gringas</string>
+    <string name="gringasdesc">Tortilla de harina con queso, carne al pastor y piña Flour tortilla with cheese marinated pork and pineapple</string>
+    <string name="sincronizadas">Sincronizadas</string>
+    <string name="sincronizadasdesc">Tortilla de harina rellena con queso y jamon. Se sirve con lechuga, crema y guacamole Sandwich of Two four tortillas filled with ham and cheese. Served with lettuce, sour cream, and guacamole.</string>
+    <string name="sopes">Sopes</string>
+    <string name="sopesdesc">Tortilla gruesa cubierta de frijoles, tu carne favorita, lechuga, queso fresco y crema Fried thick tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes</string>
+    <string name="tostadas">Tostadas</string>
+    <string name="tostadasdesc">Tortilla frita con frijoles, tu carne favorita, lechuga, queso fresco, crema y jitomate Fried tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes</string>
+
+
+    <string name="especialidades">ESPECIALIDADES</string>
+
+    <string name="mojarrafrita">Mojarra Frita - Fried Fish</string>
+    <string name="mojarradesc">Tilapia frita servida con lechiga, cebolla, jitomate, aguacate y tortillas. Agregue arroz y frijoles por $1.50 adicinales Fried tilapia served with lettuce, onions, tomatoes, avocado and tortillas. Add rice and beans for $1.50 extra.</string>
+    <string name="tostadaceviche">Tostadas de Ceviche</string>
+    <string name="tostadascevichedesc">Tilapia, camarones y pico de gallo servido en una crujiente tostada Tilapia, Shrimp and pico de gallo, served on a crispy shell</string>
+    <string name="fajitaburrito">Fajita Burrito</string>
+    <string name="fajitaburritodesc">Gran burrito relleno de tu carne favorita, cebolla, chile, arroz, frijoles y jitomate. Servido con lechuga y guacamole Large burrito filled with your choice of meat, onions, chile, peppers, rice, beans and tomatoes. Served with lettuce guacamole and sour cream.</string>
+    <string name="fajitaquesadilla">Fajita Quesadilla</string>
+    <string name="fajitaquesadilladesc">Gran burrito relleno de tu carne favorita, cebolla, chile, arroz, frijoles y jitomate. Servido con lechuga y guacamole Large burrito filled with your choice of meat, onions, chile, peppers, rice, beans and tomatoes. Served with lettuce guacamole and sour cream.</string>
+    <string name="botanadecamarones">Botana de Camarones</string>
+    <string name="coctelcamaron">Coctel camaron</string>
+
+
+    <string name="caldos">CALDOS</string>
+    <string name="larger">Larger</string>
+    <string name="camaron">Camaron</string>
+
+    <string name="combinations">COMBINATIONS</string>
+    <string name="tacocombo">Traditional Taco Combo</string>
+    <string name="tacocombodesc">Tortilla de Maiz, tu carne favorita, servido con arroz y frijoles Corn tortilla taco, your choice of meat, served with rice and beans</string>
+    <string name="mexicanburritos">Mexican Burritos</string>
+    <string name="mexicanburritosdesc">Your choice of meat on a big burrito made of flour tortilla with rice, beans, lettuce, grilled onions, pico de gallo, guacamole and sour cream.</string>
+    <string name="losportalesburrito">Los portales burrito</string>
+    <string name="losportalesburritodesc">A flour tortilla wrapped around grilled cactus, steak, pastor, (Seasoned Pork) grilled onions, rice and beans. Served a side of lettuce salad, tomatoes, sour cream and guacamole.</string>
+    <string name="cinco">Cinco</string>
+    <string name="cincodesc">One hard sell taco with your choice of meat, lettuce and cheese. One burrito with your choice of meat, pico de gallo, sour cream, guacamole and beans. Served with rice and beans.</string>
+    <string name="dosamigos">Dos Amigos</string>
+    <string name="dosamigosdesc">Two hard shell tacos with your choice of meat topped with lettuce and shredded cheese. served with a side of rice and beans</string>
+    <string name="burritopepe">Burrito Pepe</string>
+    <string name="burritopepedesc">A flour tortilla wrapped around your choice of meat with beans, lettuce, sour cream, guacamole and pico de gallo. served with a side of rice.</string>
+
+    <string name="tortas">TORTAS</string>
+    <string name="tortasdesc">All tortas come with lettuce, onions, tomatoes, avocado do, sour cream, mayo, jalapeno pepper and your choice of meat.</string>
+    <string name="tortaregular">Torta regular</string>
+    <string name="tortaregulardesc">All tortas come with lettuce, onions, tomatoes, avocado do, sour cream, mayo, jalapeno pepper and your choice of meat. </string>
+    <string name="tortamilanesa">Torta -Milanesa de Res o Pollo</string>
+    <string name="tortamilanesadesc">Breaded Steak or Chicken</string>
+    <string name="tortacubana">Torta Cubana</string>
+    <string name="tortacubanadesc">Chorizo, asada, jamon, pastor y queso Mexican sausage, steak, marinated pork, ham, and cheese</string>
+    <string name="tortamixta">Torta Mixta</string>
+    <string name="tortamixtadesc">Chorizo, asada y pastor Mexican sausage, steak and marinated pork</string>
+
+    <string name="sopas">SOPAS</string>
+    <string name="pozole">Pozole</string>
+    <string name="pozoledesc">Weekends only</string>
+    <string name="menudo">Menudo</string>
+    <string name="menudodesc">Wednesday to Sunday</string>
+    <string name="caldores">Caldo de Res</string>
+    <string name="caldocamaron">Caldo de Camaron</string>
+    <string name="caldocamarondesc">Shrimp soup</string>
+    <string name="sopamariscos">Sopa de Mariscos</string>
+    <string name="sopamariscosdesc">Seafood soup</string>
+    <string name="cocteldecamaron">Coctel de Camaron</string>
+    <string name="coctendecamarondesc">Shrimp cocktail</string>
+
+    <string name="sideorders">SIDE ORDERS</string>
+    <string name="sideordersdesc">Side Orders</string>
+    <string name="sideguacamole">Side of Guacamoole</string>
+    <string name="siderice">Side of Rice</string>
+    <string name="sidebeans">Side of beans</string>
+    <string name="chipssalsa">Chips and Salsa</string>
+    <string name="flourtacos">Flour Tacos</string>
+
+    <string name="bebidas">BEBIDAS - DRINKS</string>
+    <string name="sodas">Sodas 20oz.</string>
+    <string name="jarritos">Jarritos</string>
+    <string name="aguasfrescas">Aguas Frescas</string>
+    <string name="domesticbeer">Domestic Beer</string>
+    <string name="mexicanbeer">Mexican Beer</string>
+    <string name="micheladas">Micheladas</string>
+    <string name="caguama">Caguama</string>
+    <string name="caguamamichelada">Caguama Michelada</string>
+    <string name="cubetazos">Cubetazos</string>
+    <string name="latabeer">Lata Beer</string>
+    <string name="charolazo">Charolazo</string>
+    <string name="carolazocamarones">Carolazo con Camarones</string>
+    <string name="lamamalona">La mamalona</string>
+    <string name="mamalonacamarones">La mamalona con Camarones</string>
+    <string name="cubetazo">Cubetazo (6 cervezas)</string>
+
+
+
 </resources>
