@@ -8,141 +8,151 @@
     android:backgroundTint="@color/fondo"
     tools:context=".menuprincipal">
 
-    <ImageView
-        android:layout_width="240dp"
-        android:layout_height="180dp"
-        android:layout_gravity="center"
-        android:src="@drawable/logotaqueria" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nuestras categorías"
-        android:textAllCaps="true"
         android:layout_gravity="center_horizontal"
-        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="CATEGORÍAS"
+        android:textAllCaps="true"
         android:textColor="@color/colorBoton"
-        android:layout_marginTop="20dp"
-        />
+        android:textSize="60dp" />
+
     <GridLayout
-        android:layout_width="match_parent"
+        android:layout_width="609dp"
         android:layout_height="wrap_content"
-        android:columnCount="1"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:paddingHorizontal="100dp">
+        android:columnCount="1"
+        android:paddingHorizontal="150dp">
 
-        <Button
+        <ImageButton
+
             android:id="@+id/button_tacos"
-            android:text="@string/tacos"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/tacos"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
 
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-        />
-        <Button
+
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
+
+            android:paddingVertical="0dp"
+
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/tacosboton" />
+
+        <ImageButton
             android:id="@+id/button_antojitos"
-            android:text="@string/antojitos"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/tacosvariedad"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
+
 
             android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
-        <Button
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
+
+            android:paddingVertical="0dp"
+
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/antojitosboton" />
+
+        <ImageButton
             android:id="@+id/button_especialidades"
-            android:text="@string/especialidades"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/tacosvariedad"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
-        <Button
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
+
+            android:paddingVertical="0dp"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/especialidadesboton" />
+
+        <ImageButton
             android:id="@+id/button_caldos"
-            android:text="@string/caldos"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/caldores"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
-        <Button
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
+
+            android:paddingVertical="0dp"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/caldosbotondos" />
+
+        <ImageButton
             android:id="@+id/button_combinations"
-            android:text="@string/combinations"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/dosamigos"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
 
-        <Button
+            android:paddingHorizontal="0dp"
+            android:paddingVertical="0dp"
+
+            android:scaleType="fitCenter"
+            android:src="@drawable/combiboton" />
+
+        <ImageButton
             android:id="@+id/button_tortas"
-            android:text="@string/tortas"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/mexicantorta"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
-        <Button
-            android:id="@+id/button_sopas"
-            android:text="@string/sopas"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/pozole"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
             android:layout_gravity="fill_horizontal"
-            android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
 
-        <Button
+            android:paddingVertical="0dp"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/tortasboton" />
+
+        <ImageButton
+            android:id="@+id/button_sopas"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
+
+            android:paddingVertical="0dp"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/sopasboton" />
+
+        <ImageButton
             android:id="@+id/button_sideorders"
-            android:text="@string/sideorders"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/tacosvariedad"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
-        <Button
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
+
+            android:paddingVertical="0dp"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/sideordersboton" />
+
+        <ImageButton
             android:id="@+id/button_bebidas"
-            android:text="@string/bebidas"
-            android:backgroundTint="@color/colorBoton"
-            android:src="@drawable/tacosvariedad"
-            android:paddingHorizontal="20dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
-            android:textSize="15dp"
-            android:paddingVertical="20dp"
-            />
+            android:layout_gravity="fill_horizontal"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/colorBoton"
+            android:paddingHorizontal="0dp"
+
+            android:paddingVertical="0dp"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/bebidasboton" />
     </GridLayout>
 
 </LinearLayout>
