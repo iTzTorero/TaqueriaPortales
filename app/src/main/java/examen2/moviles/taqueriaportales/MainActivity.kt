@@ -2,12 +2,18 @@ package examen2.moviles.taqueriaportales
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ListView
 
 class MainActivity : AppCompatActivity() {
     var platillos: ArrayList<Platillo> = ArrayList()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        llenarPlatillos()
+        var adapter = AdaptadorPlatillos(this,platillos)
+        var listview:ListView = findViewById(R.id.litview)
+        listview.adapter=adapter
     }
 
     fun llenarPlatillos() {
@@ -18,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tacoTradicionalDesc.toString(),
                 R.string.tacos.toString(),
                 2.35.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.tacostradicional
             )
         )
         platillos.add(
@@ -28,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tacoPescadoDesc.toString(),
                 R.string.tacos.toString(),
                 2.35.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.tacospescado
             )
         )
         platillos.add(
@@ -38,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.quesadillas.toString(),
                 R.string.antojitos.toString(),
                 4.75.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.quesadillas
             )
         )
         platillos.add(
@@ -48,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.huarachesdesc.toString(),
                 R.string.antojitos.toString(),
                 9.87.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.huarache
             )
         )
         platillos.add(
@@ -58,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.gringasdesc.toString(),
                 R.string.antojitos.toString(),
                 6.47.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.gringas
             )
         )
         platillos.add(
@@ -68,7 +74,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.sincronizadasdesc.toString(),
                 R.string.antojitos.toString(),
                 6.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.sincronizadas
             )
         )
         platillos.add(
@@ -78,7 +84,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.sopesdesc.toString(),
                 R.string.antojitos.toString(),
                 3.39.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.sopes
             )
         )
         platillos.add(
@@ -88,7 +94,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tostadasdesc.toString(),
                 R.string.antojitos.toString(),
                 3.55.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.tostadas
             )
         )
         platillos.add(
@@ -98,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.mojarradesc.toString(),
                 R.string.especialidades.toString(),
                 14.79.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.mojarra
             )
         )
         platillos.add(
@@ -108,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tostadasdesc.toString(),
                 R.string.especialidades.toString(),
                 2.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.tostadaceviche
             )
         )
 
@@ -119,7 +125,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.fajitaburritodesc.toString(),
                 R.string.especialidades.toString(),
                 11.79.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fajitaburrito
             )
         )
 
@@ -130,7 +136,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.botanadecamaronesdesc.toString(),
                 R.string.especialidades.toString(),
                 17.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.botanacamarones
             )
         )
         platillos.add(
@@ -140,7 +146,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.coctelcamarondesc.toString(),
                 R.string.especialidades.toString(),
                 14.79.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.coctelcamaron
             )
         )
         platillos.add(
@@ -150,7 +156,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.largerdesc.toString(),
                 R.string.caldos.toString(),
                 10.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.caldolargo
             )
         )
         platillos.add(
@@ -160,7 +166,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.caldocamarondesc.toString(),
                 R.string.especialidades.toString(),
                 11.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.caldocamaron
             )
         )
         platillos.add(
@@ -272,7 +278,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.smallmexicantortadesc.toString(),
                 R.string.tortas.toString(),
                 10.95.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.mexicantorta
             )
         )
         platillos.add(
@@ -282,7 +288,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.pozoledesc.toString(),
                 R.string.sopas.toString(),
                 5.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.pozole
             )
         )
         platillos.add(
@@ -292,7 +298,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.menudodesc.toString(),
                 R.string.sopas.toString(),
                 5.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.menudo
             )
         )
         platillos.add(
@@ -302,7 +308,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.caldoresdesc.toString(),
                 R.string.sopas.toString(),
                 5.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.caldores
             )
         )
 
@@ -313,7 +319,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.caldocamarondesc.toString(),
                 R.string.sopas.toString(),
                 10.69.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.caldocamaron
             )
         )
 
@@ -324,7 +330,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.sopamariscosdesc.toString(),
                 R.string.sopas.toString(),
                 15.75.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.sopamariscos
             )
         )
 
@@ -335,7 +341,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.coctelcamarondesc.toString(),
                 R.string.sopas.toString(),
                 13.50.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.coctelcamaron
             )
         )
 
@@ -346,7 +352,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.sideguacamoledesc.toString(),
                 R.string.sideorders.toString(),
                 3.75.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.guacamole
             )
         )
 
