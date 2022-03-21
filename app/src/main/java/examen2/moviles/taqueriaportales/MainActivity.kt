@@ -176,7 +176,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tacocombodesc.toString(),
                 R.string.combinations.toString(),
                 6.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -186,7 +186,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.mexicanburritosdesc.toString(),
                 R.string.combinations.toString(),
                 10.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -196,7 +196,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.losportalesburritodesc.toString(),
                 R.string.combinations.toString(),
                 11.79.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -206,7 +206,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.cincodesc.toString(),
                 R.string.combinations.toString(),
                 7.67.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -216,7 +216,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.dosamigosdesc.toString(),
                 R.string.combinations.toString(),
                 8.25.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -226,7 +226,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.burritopepedesc.toString(),
                 R.string.combinations.toString(),
                 6.89.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -236,7 +236,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tortaregulardesc.toString(),
                 R.string.tortas.toString(),
                 10.95.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -246,7 +246,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tortamilanesadesc.toString(),
                 R.string.tortas.toString(),
                 11.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -256,7 +256,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tortacubanadesc.toString(),
                 R.string.tortas.toString(),
                 12.35.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
 
@@ -267,7 +267,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.tortamixtadesc.toString(),
                 R.string.tortas.toString(),
                 11.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
 
@@ -363,7 +363,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.sidericedesc.toString(),
                 R.string.sideorders.toString(),
                 1.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
 
@@ -374,7 +374,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.sidebeansdesc.toString(),
                 R.string.sideorders.toString(),
                 1.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
         platillos.add(
@@ -384,7 +384,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.chipssalsadesc.toString(),
                 R.string.sideorders.toString(),
                 2.25.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
 
@@ -395,7 +395,7 @@ class MainActivity : AppCompatActivity() {
                 R.string.flourtacosdesc.toString(),
                 R.string.sideorders.toString(),
                 2.99.toFloat(),
-                R.drawable.fondoInicio
+                R.drawable.fondoiniciodos
             )
         )
 

@@ -8,9 +8,10 @@ import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
 
-class AdaptadorPlatillos:BaseAdapter() {
+class AdaptadorPlatillos:BaseAdapter{
     lateinit var context:Context
     var platillos:ArrayList<Platillo> = ArrayList()
+
 
     constructor(context: Context, platillos:ArrayList<Platillo>){
         this.context = context

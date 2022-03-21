@@ -118,5 +118,6 @@
     <string name="sidebeansdesc">Bowl of beans</string>
     <string name="chipssalsadesc">Bowl with chips and salsa</string>
     <string name="flourtacosdesc">Flour tacos</string>
+    <string name="categor_as">CATEGORÍAS</string>
 
 </resources>
