@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaqueriaPortales">
         <activity
+            android:name=".ComidasActivity"
+            android:exported="false" />
+        <activity
             android:name=".menuprincipal"
             android:exported="false" />
         <activity
