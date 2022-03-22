@@ -119,5 +119,8 @@
     <string name="chipssalsadesc">Bowl with chips and salsa</string>
     <string name="flourtacosdesc">Flour tacos</string>
     <string name="categor_as">CATEGORÍAS</string>
+    <string name="cantidad">0</string>
+    <string name="precioProducto">0</string>
+    <string name="precioTotal">0</string>
 
 </resources>
