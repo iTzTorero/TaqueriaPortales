@@ -54,8 +54,6 @@ class ComidasActivity : AppCompatActivity() {
         }
 
         
-
-
     }
 
     fun quitarCantidad(cantidadComidaView: TextView){
