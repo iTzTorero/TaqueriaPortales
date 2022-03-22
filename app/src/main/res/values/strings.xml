@@ -122,5 +122,6 @@
     <string name="cantidad">0</string>
     <string name="precioProducto">0</string>
     <string name="precioTotal">0</string>
+    <string name="cantidadComidaView">0</string>
 
 </resources>

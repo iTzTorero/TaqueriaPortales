@@ -26,6 +26,9 @@ class ComidasActivity : AppCompatActivity() {
         setContentView(R.layout.activity_comidas)
 
         var btnCarrito = findViewById(R.id.btnCarrito) as ImageButton
+        var btnQuitarCantidad = findViewById(R.id.btnQuitarCantidad) as Button
+        var btnAgregarCantidad = findViewById(R.id.btnAgregarCantidad) as Button
+        var cantidadComidaView = findViewById(R.id.tv_cantidadComidaView) as TextView
 
         agregarComidas()
 
@@ -36,6 +39,27 @@ class ComidasActivity : AppCompatActivity() {
         btnCarrito.setOnClickListener{
             var intent: Intent = Intent(this,PedidoActivity::class.java)
             startActivity(intent)
+        }
+
+        btnAgregarCantidad.setOnClickListener{
+            var cantString: String = cantidadComidaView.text.toString()
+            var cant: Int = cantString.toInt()
+            cant += 1
+            cantidadComidaView.setText(cant)
+        }
+
+        btnQuitarCantidad.setOnClickListener{
+            quitarCantidad(cantidadComidaView)
+        }
+
+
+    }
+
+    fun quitarCantidad(cantidadComidaView: TextView){
+        var cantString: String = cantidadComidaView.text.toString()
+        var cant: Int = cantString.toInt()
+        if (cant > 0){
+            cant -= 1
         }
     }
 
