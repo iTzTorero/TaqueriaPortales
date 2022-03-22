@@ -23,6 +23,23 @@
     <ListView
         android:id="@+id/litview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="499dp" />
+
+    <Button
+        android:id="@+id/btnAgregarCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/naranja"
+        android:text="Agregar al carrito"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btnCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/carrito" />
+
 
 </LinearLayout>

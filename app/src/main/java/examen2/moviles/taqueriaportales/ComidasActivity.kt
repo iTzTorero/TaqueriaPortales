@@ -1,15 +1,13 @@
 package examen2.moviles.taqueriaportales
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.ImageView
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 
 class ComidasActivity : AppCompatActivity() {
 
@@ -27,11 +25,18 @@ class ComidasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_comidas)
 
+        var btnCarrito = findViewById(R.id.btnCarrito) as ImageButton
+
         agregarComidas()
 
         var listview : ListView = findViewById(R.id.litview) as ListView
         var adaptador: AdaptadorComidas = AdaptadorComidas(this,tacos)
         listview.adapter = adaptador
+
+        btnCarrito.setOnClickListener{
+            var intent: Intent = Intent(this,PedidoActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     fun agregarComidas(){

@@ -75,7 +75,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="400dp"
         android:layout_marginTop="32dp"
         android:background="@color/naranja"
         android:orientation="vertical"
@@ -85,7 +85,7 @@
         <ListView
             android:id="@+id/listpedidosview"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="383dp" />
 
     </LinearLayout>
 
@@ -100,10 +100,10 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/btnComprar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.629" />
 
     <TextView
         android:id="@+id/textView5"
@@ -118,10 +118,10 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/btnComprar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.769"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.676" />
 
     <Button
         android:id="@+id/btnComprar"
@@ -129,12 +129,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:background="@color/naranja"
-        android:text="Button"
-        android:textColor="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="Realizar compra"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="0.414" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
