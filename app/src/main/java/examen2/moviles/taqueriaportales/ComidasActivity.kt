@@ -29,6 +29,7 @@ class ComidasActivity : AppCompatActivity() {
         var btnQuitarCantidad = findViewById(R.id.btnQuitarCantidad) as Button
         var btnAgregarCantidad = findViewById(R.id.btnAgregarCantidad) as Button
         var cantidadComidaView = findViewById(R.id.tv_cantidadComidaView) as TextView
+        var btnAgregarCarrito = findViewById(R.id.btnAgregarCarrito) as Button
 
         agregarComidas()
 
@@ -51,6 +52,8 @@ class ComidasActivity : AppCompatActivity() {
         btnQuitarCantidad.setOnClickListener{
             quitarCantidad(cantidadComidaView)
         }
+
+        
 
 
     }
